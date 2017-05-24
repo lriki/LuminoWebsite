@@ -1,0 +1,12 @@
+- name: Articles
+  href: articles/
+- name: Manual
+  href: manual/
+- name: Api Documentation
+  href: api/
+  homepage: api/index.md
+- name: Learning
+  href: learning/index.md
+  items:
+  - name: Learning
+    href: learning/index.md
