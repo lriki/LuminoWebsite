@@ -1,12 +1,9 @@
-- name: Articles
-  href: articles/
-- name: Manual
-  href: manual/
-- name: Api Documentation
-  href: api/
-  homepage: api/index.md
-- name: Learning
-  href: learning/index.md
-  items:
-  - name: Learning
-    href: learning/index.md
+- name: ダウンロード
+  href: downloads/index.md
+- name: ドキュメント
+  href: documents/index.md
+- name: サポート
+  href: supports/index.md
+- name: 開発
+  href: development/index.md
+  

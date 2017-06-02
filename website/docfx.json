@@ -34,6 +34,12 @@
           "samples/**/toc.yml",
           "tutorials/**.md",
           "tutorials/**/toc.yml",
+          "downloads/**.md",
+          "downloads/**/toc.yml",
+          "supports/**.md",
+          "supports/**/toc.yml",
+          "development/**.md",
+          "development/**/toc.yml",
           "toc.yml",
           "*.md"
         ],
@@ -46,7 +52,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "downloads/img/**"
         ],
         "exclude": [
           "obj/**",
