@@ -867,3 +867,16 @@ svg:hover path {
 .content hr {
   border-bottom-color: #eee;
 }
+
+
+
+
+
+
+/* Lumino doc local */
+
+.alert > h5 {
+  margin-top: 0;
+}
+
+
