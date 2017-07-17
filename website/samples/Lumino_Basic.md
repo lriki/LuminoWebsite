@@ -1,8 +1,10 @@
 Lumino の基本
 ====================
 
-最小限のプログラム
+ウィンドウを表示するだけの最小限のプログラム
 --------------------
+![](img/Lumino_Basic_1.png)
+
 ```cpp
 #include <Lumino.h>
 using namespace ln;
@@ -24,6 +26,8 @@ void Main()
 
 Hello world!
 --------------------
+![](img/Lumino_Basic_2.png)
+
 ```cpp
 #include <Lumino.h>
 using namespace ln;
