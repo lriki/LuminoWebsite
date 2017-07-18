@@ -1,5 +1,3 @@
-- name: サンプル (Tips)
-  href: ../samples/index.md
 - name: エンジン
   href: index.md
   items:

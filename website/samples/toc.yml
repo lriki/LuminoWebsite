@@ -1,9 +1,0 @@
-- name: サンプル (Tips)
-  href: ../samples/index.md
-- name: Lumino の基本
-  href: Lumino_Basic.md
-- name: グラフィックス (2D)
-  href: index.md
-  items:
-    - name: スプライト
-      href: Graphics2D_Sprite2D.md
