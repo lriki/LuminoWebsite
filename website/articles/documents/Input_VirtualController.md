@@ -41,6 +41,7 @@ if (Input::isPressed("left"))
 | pagedown         | InputButtons::PageDown | W キー     | -      | 6 番ボタン    |
 | any              | InputButtons::Any      | ※1         | ※1     | ※1            |
 
+※1: 割り当てられている全てのボタンに対応します。
 
 仮想ボタンの割り当て
 --------------------
