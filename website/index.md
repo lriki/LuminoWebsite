@@ -17,7 +17,7 @@ footer{
       <a class="version-link" href="index.md">Version Notes</a><span>|</span><a class="github-link" href="https://github.com/dotnet/docfx">View in Github</a>
     </div>
     <div class="minitext">
-    Lumino はリアルタイムグラフィックスアプリケーションのためのオープンソースフレームワークです。現在は主にゲーム開発を支援するためのゲームエンジンとして開発を進めています。
+    Lumino はリアルタイムグラフィックスアプリケーションのためのオープンソースフレームワークです。ウィンドウの作成、2D 及び 3D シーンの描画、ユーザー入力、サウンドの再生などの一般的なタスクを抽象化し、シンプルなコードで多彩なインタラクションの実現をサポートします。現在は主にゲーム開発を支援するためのゲームエンジンとして開発を進めています。
     </div>
     <div class="buttons-unit">
       <a href="index.md" class="button"><i class="glyphicon glyphicon-send"></i>Getting Started</a>
