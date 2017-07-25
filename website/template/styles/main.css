@@ -159,6 +159,11 @@ svg:hover path {
 
 /* # Local Github like style */
 
+.content {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
 .content h1 {
   padding-bottom: 0.3em;
   font-size: 2em;
