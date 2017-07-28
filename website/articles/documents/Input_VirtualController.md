@@ -42,16 +42,3 @@ if (Input::isPressed("left"))
 | any              | InputButtons::Any      | ※1         | ※1     | ※1            |
 
 ※1: 割り当てられている全てのボタンに対応します。
-
-仮想ボタンの割り当て
---------------------
-
-次の例では、方向キーとしてキーボードの W, A, S, D を割り当てています。
-
-```cpp
-Input::addKeyboardBinding(InputButtons::Left, Keys::A);
-Input::addKeyboardBinding(InputButtons::Right, Keys::D);
-Input::addKeyboardBinding(InputButtons::Up, Keys::W);
-Input::addKeyboardBinding(InputButtons::Down, Keys::S);
-```
-

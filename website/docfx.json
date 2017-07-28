@@ -41,7 +41,8 @@
       {
         "files": [
           "images/**",
-          "articles/**/img/**"
+          "articles/**/img/**",
+          "logo.png"
         ],
         "exclude": [
           "obj/**",
@@ -70,6 +71,11 @@
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
-    "cleanupCacheHistory": false
+    "cleanupCacheHistory": false,
+    "globalMetadata": {
+      "_appTitle": "Lumino website",
+      "_appFooter": "Copyright © 2017 lriki",
+      "_appLogoPath": "logo.png"
+    }
   }
 }
