@@ -149,6 +149,9 @@ svg:hover path {
 
 
 /* # Local Github like style */
+.navbar-brand {
+  margin-right: 7px;
+}
 
 .content {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
