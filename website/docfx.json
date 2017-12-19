@@ -28,18 +28,6 @@
         "files": [
           "articles/**.md",
           "articles/**/toc.yml",
-          "manual/**.md",
-          "manual/**/toc.yml",
-          "samples/**.md",
-          "samples/**/toc.yml",
-          "tutorials/**.md",
-          "tutorials/**/toc.yml",
-          "downloads/**.md",
-          "downloads/**/toc.yml",
-          "supports/**.md",
-          "supports/**/toc.yml",
-          "development/**.md",
-          "development/**/toc.yml",
           "toc.yml",
           "*.md"
         ],
@@ -53,7 +41,9 @@
       {
         "files": [
           "images/**",
-          "downloads/img/**"
+          "articles/**/img/**",
+          "logo.png",
+          "favicon.ico"
         ],
         "exclude": [
           "obj/**",
@@ -72,21 +62,22 @@
         ]
       }
     ],
-
-    "globalMetadata": {
-      "_appTitle": "docfx seed website",
-      "_enableSearch": true
-    },
-
-
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "template"
+      "template"  /* local template folder */
     ],
     "postProcessors": [],
-    "noLangKeyword": false
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "globalMetadata": {
+      "_appTitle": "Lumino website",
+      "_appFooter": "Copyright © 2017 lriki",
+      "_appLogoPath": "logo.png",
+      "_appFaviconPath": "favicon.ico"
+    }
   }
 }
